@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My CSS Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <ul class="topnav" id="dropdownClick">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li class="topnav-right"><a href="#signup">Sign In</a></li>
+      <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+      <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+    </ul>
+  </nav>
+  <div class="container" id="section-1-gradient">
+    <div class="row">
+      <div class="col-6">
+        <div class="leftSide-col">
+          <h1 class="large">Amazing recipes</h1>
+          <h1 class="large"></h1>
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Dwab7xMXElk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <form>
+          <div class="leftSide-col">
+          </div>
+        </form>
+      </div>
+      <div class="col-6">
+        <div class="rightSide-col">
+          <div class="videoContainer">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <h1 class="section2Header">The Standards of Awesomeness</h1>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="box">
+          <div class="icon">
+            <img src="file:///C:/Users/Abdullah/Pictures/35d5c0e5-9a38-4e17-9d56-44bd125c590d.jpg">
+          </div>
+          <label>EASY RECIPES</label>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box">
+          <div class="icon">
+            <img src="file:///C:/Users/Abdullah/Pictures/35d5c0e5-9a38-4e17-9d56-44bd125c590d.jpg">
+          </div>
+          <label>TASTY AND HEALTHY RECIPES</label>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box">
+          <div class="icon">
+            <img src="file:///C:/Users/Abdullah/Pictures/35d5c0e5-9a38-4e17-9d56-44bd125c590d.jpg">
+          </div>
+          <label>FINGER LICKING RECIPES</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+
+        
+  
+  <footer class="footsy">
+    <div class="row">
+      <div class="col-3 mobileStack">
+        <h1>Company</h1>
+        <ul>
+          <li>About</li>
+          <li>Blogs</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div class="col-3 mobileStack">
+        <h1>Company</h1>
+        <ul>
+          <li>About</li>
+          <li>Blogs</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div class="col-3 mobileStack">
+        <h1>Company</h1>
+        <ul>
+          <li>About</li>
+          <li>Blogs</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div class="col-3 mobileStack">
+        <h1>Company</h1>
+        <ul>
+          <li>About</li>
+          <li>Blogs</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  
+  
+  <script>
+    function dropdownMenu() {
+      var x = document.getElementById("dropdownClick");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        /*change topnav to topnav.responsive*/
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
